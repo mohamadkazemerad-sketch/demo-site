@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>محصول</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<a class="back" href="index.html">
+⬅ برگشت به فروشگاه
+</a>
+
+<h1>
+ست شلوار بگ و تیشرت باکسی
+</h1>
+
+</header>
+
+<section class="product">
+
+<div class="gallery">
+
+<img src="images/product2.jpg"
+id="mainImage">
+
+<div class="thumbs">
+
+<img src="images/product2-2.jpg"
+onclick="changeImage(this.src)">
+
+<img src="images/product2-3.jpg" 
+onclick="changeImage(this.src)">
+
+</div>
+
+<div class="description">
+
+<h2>
+ست شلوار بگ و تیشرت باکسی
+</h2>
+
+<div class="price">
+
+999,999 تومان
+
+</div>
+
+<p>
+ست 2026 ترند و زیبا
+</p>
+
+<h3>
+انتخاب سایز
+</h3>
+
+<select id="size">
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+<option>XXL</option>
+
+<option>XXXL</option>
+
+</select>
+
+<a href="https://t.me/mohamad_kazeme" target="_blank">
+<button>ثبت سفارش</button>
+</a>
+
+</section>
+
+<section class="similar">
+
+<h2>
+محصولات مشابه
+</h2>
+
+
+<div class="product">
+
+<a href="product.html">
+<img src="images/product1.jpg">
+</a>
+
+<h3>
+ست شلوار بگ و تیشرت باکسی
+</h3>
+
+<p>
+999,999 تومان
+</p>
+
+</div>
+
+
+<div class="product">
+
+<a href="product3.html">
+<img src="images/product3.jpg">
+</a>
+
+<h3>
+ست شلوار بگ و تیشرت باکسی
+</h3>
+
+<p>
+999,999 تومان
+</p>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+<script>
+
+function changeImage(image){
+
+document.getElementById("mainImage").src = image;
+
+}
+
+
+</script>
+
+</body>
+
+</html>
